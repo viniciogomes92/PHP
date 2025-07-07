@@ -64,7 +64,7 @@ Acessar no navegador:
 http://localhost/siscardapio
 
 🗂️ Estrutura de Arquivos
-text
+
 siscardapio/
 ├── assets/            # Imagens e Ícones
 ├── css/               # Folhas de estilo
@@ -73,7 +73,6 @@ siscardapio/
 ├── js/                # JavaScript
 ├── password_compat/   # Compatibilidade de senhas
 ├── sweetalert2/       # Alertas estilizados
-│
 ├── acoes_acompanhamentos.php		# Controllers para operações CRUD de acompanhamentos
 ├── acoes_agentes_fiscais.php		# Controllers para operações CRUD de agentes_fiscais
 ├── acoes_avaliacoes.php		# Controllers para operações CRUD de avaliacoes
