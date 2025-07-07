@@ -158,19 +158,19 @@ Erro de conexão com o banco: Verifique as credenciais em config/connect.php con
 
 Página em branco: Habilite erros no PHP (display_errors = On no php.ini).
 
-🤝 Como Contribuir
-Faça um fork do projeto
+🤝 Como Contribuir <br>
+	Faça um fork do projeto
 
-Crie uma branch (git checkout -b feature/nova-feature)
+	Crie uma branch (git checkout -b feature/nova-feature)
 
-Commit suas mudanças (git commit -m 'Adiciona nova feature')
+	Commit suas mudanças (git commit -m 'Adiciona nova feature')
 
-Push para a branch (git push origin feature/nova-feature)
+	Push para a branch (git push origin feature/nova-feature)
 
-Abra um Pull Request
+	Abra um Pull Request
 
-📜 Licença
-Este projeto está sob a licença MIT - veja o arquivo LICENSE para detalhes.
+📜 Licença: <br>
+	Este projeto está sob a licença MIT - veja o arquivo LICENSE para detalhes.
 
-📞 Contato
-Vinício Gomes - @viniciogomes92 - viniciogomes@gmail.com
+📞 Contato: <br>
+	Vinício Gomes - @viniciogomes92 - viniciogomes@gmail.com
