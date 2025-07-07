@@ -63,10 +63,10 @@ Acessar no navegador:
 
 	http://localhost/siscardapio
 
-🗂️ Estrutura de Arquivos
-
-siscardapio/
-├── assets/            // Imagens e Ícones
+🗂️ Estrutura de Arquivos \n
+\n
+siscardapio/ \n
+├── assets/            // Imagens e Ícones \n
 ├── css/               // Folhas de estilo
 ├── dompdf/            // Biblioteca para gerar PDFs
 ├── fpdf/              // Geração de relatórios em PDF
