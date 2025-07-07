@@ -8,14 +8,12 @@
 
 ---
 
-## 🔧 Recursos Principais
-- ✅ Cadastro de usuários
-- 🔒 Autenticação de usuário
-- 📊 Painel administrativo
--  Inclusão de Guarnições
-- Criação de cardápios
-- Avaliação dos cardápios
-- Relatórios de avaliação mensal, que permitem melhorar ou alterar cardápios mal avaliados.
+## 🌟 Funcionalidades Principais
+- **Gestão de Cardápios** por tipo de refeição (café, almoço, jantar, ceia)
+- **Cadastro de Componentes** (pratos principais, guarnições, sobremesas, complementos)
+- **Avaliação de Refeições**
+- **Relatórios em PDF** (com dompdf e FPDF)
+- **Gestão de Usuários** (nutricionistas, agentes fiscais, gestores de municiamento)
 
 ## 🛠️ Tecnologias Utilizadas
 - PHP >= 8.2
@@ -32,53 +30,108 @@
 - PHP 8.0 ou superior
 - Servidor web (Apache/Nginx ou PHP built-in server)
 - MySQL/MariaDB
+- Composer (para dependências)
 - Git
 
 ### Passo a Passo
 
-1. **Clonar o repositório**:
-   ```bash
+**Clonar o repositório**:
+   
    git clone https://github.com/viniciogomes92/PHP.git
    cd PHP
-Configurar ambiente:
 
-Copie o arquivo de configuração:
-
-bash
-
-Edite as credenciais do banco em connect.php e connect_pdo.php.
-
-Importar banco de dados:
-
-bash
-mysql -u root -p siscardapio < Dump20250630/siscardapio_tabela.sql
 
 Iniciar servidor:
 
-bash
-php -S localhost:8000 -t public/
+	Utilizando o XAMPP ou LAMPP, basta iniciar os serviços Apache e MySQL.
+
+Configurar ambiente:
+
+	Edite as credenciais do banco em siscardapio/connect.php e siscardapio/connect_pdo.php.
+
+Importar banco de dados:
+
+	mysql -u root -p siscardapio < Dump20250630/siscardapio_tabela.sql
+
+	Ou utilizar o MySQL Workbench, criar um DB com nome siscardapio e utilizar o Import Wizard para importar as tabelas.
+
+Acessar o sistema:
+
+	http://localhost/siscardapio/index.php
 
 Acessar no navegador:
 
-text
-http://localhost:8000/siscardapio
+http://localhost/siscardapio
+
 🗂️ Estrutura de Arquivos
 text
 siscardapio/
-├── public/            # Arquivos acessíveis publicamente
-│   ├── index.php      # Ponto de entrada
-│   └── assets/        # CSS, JS, imagens
-├── src/               # Código fonte
-│   ├── Core/          # Classes base
-│   ├── Models/        # Modelos de dados
-│   └── Controllers/   # Lógica da aplicação
-├── config/            # Arquivos de configuração
-├── vendor/            # Dependências do Composer
-├── .htaccess          # Configurações do Apache
-├── composer.json      # Dependências
-└── README.md          # Este arquivo
+├── assets/            # Imagens e Ícones
+├── css/               # Folhas de estilo
+├── dompdf/            # Biblioteca para gerar PDFs
+├── fpdf/              # Geração de relatórios em PDF
+├── js/                # JavaScript
+├── password_compat/   # Compatibilidade de senhas
+├── sweetalert2/       # Alertas estilizados
+│
+├── acoes_acompanhamentos.php		# Controllers para operações CRUD de acompanhamentos
+├── acoes_agentes_fiscais.php		# Controllers para operações CRUD de agentes_fiscais
+├── acoes_avaliacoes.php		# Controllers para operações CRUD de avaliacoes
+├── acoes_cafes.php			# Controllers para operações CRUD de cafes
+├── acoes_cardapios_almoco.php		# Controllers para operações CRUD de Cardápios de Almoço
+├── acoes_cardapios_cafe.php		# Controllers para operações CRUD de Cardápios de Café
+├── acoes_cardapios_ceia.php		# Controllers para operações CRUD de Cardápios de Ceia
+├── acoes_cardapios_jantar.php 	# Controllers para operações CRUD de Cardápios de Jantar
+├── acoes_ceias.php			# Controllers para operações CRUD de Ceias
+├── acoes_complementos.php		# Controllers para operações CRUD de Complementos
+├── acoes_complementos_ceia.php	# Controllers para operações CRUD de Complementos de Ceia
+├── acoes_entradas.php			# Controllers para operações CRUD de Entradas
+├── acoes_gestores_munic.php		# Controllers para operações CRUD de Gestores de Municiamento
+├── acoes_guarnicoes.php		# Controllers para operações CRUD de Guarnições
+├── acoes_nutricionistas.php		# Controllers para operações CRUD de Nutricionistas
+├── acoes_pratosPrincipais.php		# Controllers para operações CRUD de Pratos Principais
+├── acoes_questoes.php			# Controllers para operações CRUD de Questões
+├── acoes_sobremesas.php		# Controllers para operações CRUD de Sobremesas
+├── acoes_usuarios.php			# Controllers para operações CRUD de Usuários
+├── acompanhamento-create.php		# Formulário de criação de Acompanhamento
+├── acompanhamento-edit.php		# Formulário de edição de Acompanhamento
+├── acompanhamentos_ceia.php        	# Página principal de Acompanhamento de Ceia
+├── avaliacao_rancho.php		# Página para votação dos cardápios
+├── cafe-create.php			# Formulário de criação de Café
+├── cafe-edit.php			# Formulário de edição de Café
+├── cafes.php				# Página principal de Café
+├── cardapios_almoco.php		# Página principal para Criação de Cardápios de Almoço
+├── cardapios_almoco-edit.php		# Página principal para Edição de Cardápios de Almoço
+├── cardapios_cafe.php			# Página principal para Criação de Cardápios de Café
+├── cardapios_cafe-edit.php		# Página principal para Edição de Cardápios de Café
+├── cardapios_ceia.php			# Página principal para Criação de Cardápios de Ceia
+├── cardapios_ceia-edit.php		# Página principal para Edição de Cardápios de Ceia
+├── cardapios_dashboard.php		# Página principal com os tipos de Cardápio
+├── cardapios_jantar.php		# Página principal para Criação de Cardápios de Jantar
+├── cardapios_jantar-edit.php		# Página principal para Edição de Cardápios de Jantar
+├── ceia-create.php			# Formulário de criação de Ceia
+├── ceia-edit.php			# Formulário de edição de Ceia
+├── ceias.php				# Página principal de Ceia
+├── complemento_ceia-create.php	# Formulário de criação de Complemento de Ceia
+├── complemento_ceia-edit.php		# Formulário de edição de Complemento de Ceia
+├── complemento-create.php		# Formulário de criação de Complemento de Café
+├── complemento-edit.php		# Formulário de edição de Complemento de Café
+├── complementos.php			# Página principal de Complemento de Café
+├── complementos_ceia.php		# Página principal de Complemento de Ceia
+├── config.php				# Formulário de criação de Agentes Fiscais, Nutricionistas e Gestores de Municiamento 
+├── connect.php			# Arquivo de configuração do BD utilizando mysqli
+├── connect_pdo.php			# Arquivo de configuração do BD utilizando PDO
+├── dashboard.php			# Painel Administrativo do Sistema
+├── entrada-create.php			
+├── entrada-edit.php
+├── entradas.php
+├── 
+├── 
+├── settings.php       # Configurações globais
+├── exportar_*.php     # Scripts de exportação
+
 🐛 Solução de Problemas
-Erro de conexão com o banco: Verifique as credenciais em config/database.php.
+Erro de conexão com o banco: Verifique as credenciais em config/connect.php connect_pdo.
 
 Página em branco: Habilite erros no PHP (display_errors = On no php.ini).
 
@@ -97,5 +150,4 @@ Abra um Pull Request
 Este projeto está sob a licença MIT - veja o arquivo LICENSE para detalhes.
 
 📞 Contato
-Seu Nome - @seu_usuario - seu-email@exemplo.com
-🔗 Link do Projeto
+Vinício Gomes - @viniciogomes92 - viniciogomes@gmail.com
