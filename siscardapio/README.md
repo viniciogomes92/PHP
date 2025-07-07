@@ -67,31 +67,31 @@ Acessar no navegador:
 <br>
 siscardapio/ <br>
 ├── assets/            // Imagens e Ícones <br>
-├── css/               // Folhas de estilo
-├── dompdf/            // Biblioteca para gerar PDFs
-├── fpdf/              // Geração de relatórios em PDF
-├── js/                // JavaScript
-├── password_compat/   // Compatibilidade de senhas
-├── sweetalert2/       // Alertas estilizados
-├── acoes_acompanhamentos.php		// Controllers para operações CRUD de acompanhamentos
-├── acoes_agentes_fiscais.php		// Controllers para operações CRUD de agentes_fiscais
-├── acoes_avaliacoes.php		// Controllers para operações CRUD de avaliacoes
-├── acoes_cafes.php			// Controllers para operações CRUD de cafes
-├── acoes_cardapios_almoco.php		// Controllers para operações CRUD de Cardápios de Almoço
-├── acoes_cardapios_cafe.php		// Controllers para operações CRUD de Cardápios de Café
-├── acoes_cardapios_ceia.php		// Controllers para operações CRUD de Cardápios de Ceia
-├── acoes_cardapios_jantar.php 	// Controllers para operações CRUD de Cardápios de Jantar
-├── acoes_ceias.php			// Controllers para operações CRUD de Ceias
-├── acoes_complementos.php		// Controllers para operações CRUD de Complementos
-├── acoes_complementos_ceia.php	// Controllers para operações CRUD de Complementos de Ceia
-├── acoes_entradas.php			// Controllers para operações CRUD de Entradas
-├── acoes_gestores_munic.php		// Controllers para operações CRUD de Gestores de Municiamento
-├── acoes_guarnicoes.php		// Controllers para operações CRUD de Guarnições
-├── acoes_nutricionistas.php		// Controllers para operações CRUD de Nutricionistas
-├── acoes_pratosPrincipais.php		// Controllers para operações CRUD de Pratos Principais
-├── acoes_questoes.php			// Controllers para operações CRUD de Questões
-├── acoes_sobremesas.php		// Controllers para operações CRUD de Sobremesas
-├── acoes_usuarios.php			// Controllers para operações CRUD de Usuários
+├── css/               // Folhas de estilo <br>
+├── dompdf/            // Biblioteca para gerar PDFs <br>
+├── fpdf/              // Geração de relatórios em PDF <br>
+├── js/                // JavaScript <br>
+├── password_compat/   // Compatibilidade de senhas <br>
+├── sweetalert2/       // Alertas estilizados <br>
+├── acoes_acompanhamentos.php		// Controllers para operações CRUD de acompanhamentos <br>
+├── acoes_agentes_fiscais.php		// Controllers para operações CRUD de agentes fiscais <br>
+├── acoes_avaliacoes.php		// Controllers para operações CRUD de avaliações <br>
+├── acoes_cafes.php			// Controllers para operações CRUD de cafés <br>
+├── acoes_cardapios_almoco.php		// Controllers para operações CRUD de Cardápios de Almoço <br>
+├── acoes_cardapios_cafe.php		// Controllers para operações CRUD de Cardápios de Café <br>
+├── acoes_cardapios_ceia.php		// Controllers para operações CRUD de Cardápios de Ceia <br>
+├── acoes_cardapios_jantar.php 	// Controllers para operações CRUD de Cardápios de Jantar <br>
+├── acoes_ceias.php			// Controllers para operações CRUD de Ceias <br>
+├── acoes_complementos.php		// Controllers para operações CRUD de Complementos <br>
+├── acoes_complementos_ceia.php	// Controllers para operações CRUD de Complementos de Ceia <br>
+├── acoes_entradas.php			// Controllers para operações CRUD de Entradas <br>
+├── acoes_gestores_munic.php		// Controllers para operações CRUD de Gestores de Municiamento <br>
+├── acoes_guarnicoes.php		// Controllers para operações CRUD de Guarnições <br>
+├── acoes_nutricionistas.php		// Controllers para operações CRUD de Nutricionistas <br>
+├── acoes_pratosPrincipais.php		// Controllers para operações CRUD de Pratos Principais <br>
+├── acoes_questoes.php			// Controllers para operações CRUD de Questões <br> 
+├── acoes_sobremesas.php		// Controllers para operações CRUD de Sobremesas <br>
+├── acoes_usuarios.php			// Controllers para operações CRUD de Usuários <br>
 ├── acompanhamento-create.php		// Formulário de criação de Acompanhamento
 ├── acompanhamento-edit.php		// Formulário de edição de Acompanhamento
 ├── acompanhamentos_ceia.php        	// Página principal de Acompanhamento de Ceia
