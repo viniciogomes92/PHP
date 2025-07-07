@@ -26,14 +26,14 @@
 
 ## 📥 Instalação
 
-### Pré-requisitos
+###### Pré-requisitos
 - PHP 8.0 ou superior
 - Servidor web (Apache/Nginx ou PHP built-in server)
 - MySQL/MariaDB
 - Composer (para dependências)
 - Git
 
-### Passo a Passo
+////// Passo a Passo
 
 **Clonar o repositório**:
    
@@ -61,73 +61,97 @@ Acessar o sistema:
 
 Acessar no navegador:
 
-http://localhost/siscardapio
+	http://localhost/siscardapio
 
 🗂️ Estrutura de Arquivos
 
 siscardapio/
-├── assets/            # Imagens e Ícones
-├── css/               # Folhas de estilo
-├── dompdf/            # Biblioteca para gerar PDFs
-├── fpdf/              # Geração de relatórios em PDF
-├── js/                # JavaScript
-├── password_compat/   # Compatibilidade de senhas
-├── sweetalert2/       # Alertas estilizados
-├── acoes_acompanhamentos.php		# Controllers para operações CRUD de acompanhamentos
-├── acoes_agentes_fiscais.php		# Controllers para operações CRUD de agentes_fiscais
-├── acoes_avaliacoes.php		# Controllers para operações CRUD de avaliacoes
-├── acoes_cafes.php			# Controllers para operações CRUD de cafes
-├── acoes_cardapios_almoco.php		# Controllers para operações CRUD de Cardápios de Almoço
-├── acoes_cardapios_cafe.php		# Controllers para operações CRUD de Cardápios de Café
-├── acoes_cardapios_ceia.php		# Controllers para operações CRUD de Cardápios de Ceia
-├── acoes_cardapios_jantar.php 	# Controllers para operações CRUD de Cardápios de Jantar
-├── acoes_ceias.php			# Controllers para operações CRUD de Ceias
-├── acoes_complementos.php		# Controllers para operações CRUD de Complementos
-├── acoes_complementos_ceia.php	# Controllers para operações CRUD de Complementos de Ceia
-├── acoes_entradas.php			# Controllers para operações CRUD de Entradas
-├── acoes_gestores_munic.php		# Controllers para operações CRUD de Gestores de Municiamento
-├── acoes_guarnicoes.php		# Controllers para operações CRUD de Guarnições
-├── acoes_nutricionistas.php		# Controllers para operações CRUD de Nutricionistas
-├── acoes_pratosPrincipais.php		# Controllers para operações CRUD de Pratos Principais
-├── acoes_questoes.php			# Controllers para operações CRUD de Questões
-├── acoes_sobremesas.php		# Controllers para operações CRUD de Sobremesas
-├── acoes_usuarios.php			# Controllers para operações CRUD de Usuários
-├── acompanhamento-create.php		# Formulário de criação de Acompanhamento
-├── acompanhamento-edit.php		# Formulário de edição de Acompanhamento
-├── acompanhamentos_ceia.php        	# Página principal de Acompanhamento de Ceia
-├── avaliacao_rancho.php		# Página para votação dos cardápios
-├── cafe-create.php			# Formulário de criação de Café
-├── cafe-edit.php			# Formulário de edição de Café
-├── cafes.php				# Página principal de Café
-├── cardapios_almoco.php		# Página principal para Criação de Cardápios de Almoço
-├── cardapios_almoco-edit.php		# Página principal para Edição de Cardápios de Almoço
-├── cardapios_cafe.php			# Página principal para Criação de Cardápios de Café
-├── cardapios_cafe-edit.php		# Página principal para Edição de Cardápios de Café
-├── cardapios_ceia.php			# Página principal para Criação de Cardápios de Ceia
-├── cardapios_ceia-edit.php		# Página principal para Edição de Cardápios de Ceia
-├── cardapios_dashboard.php		# Página principal com os tipos de Cardápio
-├── cardapios_jantar.php		# Página principal para Criação de Cardápios de Jantar
-├── cardapios_jantar-edit.php		# Página principal para Edição de Cardápios de Jantar
-├── ceia-create.php			# Formulário de criação de Ceia
-├── ceia-edit.php			# Formulário de edição de Ceia
-├── ceias.php				# Página principal de Ceia
-├── complemento_ceia-create.php	# Formulário de criação de Complemento de Ceia
-├── complemento_ceia-edit.php		# Formulário de edição de Complemento de Ceia
-├── complemento-create.php		# Formulário de criação de Complemento de Café
-├── complemento-edit.php		# Formulário de edição de Complemento de Café
-├── complementos.php			# Página principal de Complemento de Café
-├── complementos_ceia.php		# Página principal de Complemento de Ceia
-├── config.php				# Formulário de criação de Agentes Fiscais, Nutricionistas e Gestores de Municiamento 
-├── connect.php			# Arquivo de configuração do BD utilizando mysqli
-├── connect_pdo.php			# Arquivo de configuração do BD utilizando PDO
-├── dashboard.php			# Painel Administrativo do Sistema
-├── entrada-create.php			
-├── entrada-edit.php
-├── entradas.php
-├── 
-├── 
-├── settings.php       # Configurações globais
-├── exportar_*.php     # Scripts de exportação
+├── assets/            // Imagens e Ícones
+├── css/               // Folhas de estilo
+├── dompdf/            // Biblioteca para gerar PDFs
+├── fpdf/              // Geração de relatórios em PDF
+├── js/                // JavaScript
+├── password_compat/   // Compatibilidade de senhas
+├── sweetalert2/       // Alertas estilizados
+├── acoes_acompanhamentos.php		// Controllers para operações CRUD de acompanhamentos
+├── acoes_agentes_fiscais.php		// Controllers para operações CRUD de agentes_fiscais
+├── acoes_avaliacoes.php		// Controllers para operações CRUD de avaliacoes
+├── acoes_cafes.php			// Controllers para operações CRUD de cafes
+├── acoes_cardapios_almoco.php		// Controllers para operações CRUD de Cardápios de Almoço
+├── acoes_cardapios_cafe.php		// Controllers para operações CRUD de Cardápios de Café
+├── acoes_cardapios_ceia.php		// Controllers para operações CRUD de Cardápios de Ceia
+├── acoes_cardapios_jantar.php 	// Controllers para operações CRUD de Cardápios de Jantar
+├── acoes_ceias.php			// Controllers para operações CRUD de Ceias
+├── acoes_complementos.php		// Controllers para operações CRUD de Complementos
+├── acoes_complementos_ceia.php	// Controllers para operações CRUD de Complementos de Ceia
+├── acoes_entradas.php			// Controllers para operações CRUD de Entradas
+├── acoes_gestores_munic.php		// Controllers para operações CRUD de Gestores de Municiamento
+├── acoes_guarnicoes.php		// Controllers para operações CRUD de Guarnições
+├── acoes_nutricionistas.php		// Controllers para operações CRUD de Nutricionistas
+├── acoes_pratosPrincipais.php		// Controllers para operações CRUD de Pratos Principais
+├── acoes_questoes.php			// Controllers para operações CRUD de Questões
+├── acoes_sobremesas.php		// Controllers para operações CRUD de Sobremesas
+├── acoes_usuarios.php			// Controllers para operações CRUD de Usuários
+├── acompanhamento-create.php		// Formulário de criação de Acompanhamento
+├── acompanhamento-edit.php		// Formulário de edição de Acompanhamento
+├── acompanhamentos_ceia.php        	// Página principal de Acompanhamento de Ceia
+├── avaliacao_rancho.php		// Página para votação dos cardápios
+├── cafe-create.php			// Formulário de criação de Café
+├── cafe-edit.php			// Formulário de edição de Café
+├── cafes.php				// Página principal de Café
+├── cardapios_almoco.php		// Página principal para Criação de Cardápios de Almoço
+├── cardapios_almoco-edit.php		// Página principal para Edição de Cardápios de Almoço
+├── cardapios_cafe.php			// Página principal para Criação de Cardápios de Café
+├── cardapios_cafe-edit.php		// Página principal para Edição de Cardápios de Café
+├── cardapios_ceia.php			// Página principal para Criação de Cardápios de Ceia
+├── cardapios_ceia-edit.php		// Página principal para Edição de Cardápios de Ceia
+├── cardapios_dashboard.php		// Página principal com os tipos de Cardápio
+├── cardapios_jantar.php		// Página principal para Criação de Cardápios de Jantar
+├── cardapios_jantar-edit.php		// Página principal para Edição de Cardápios de Jantar
+├── ceia-create.php			// Formulário de criação de Ceia
+├── ceia-edit.php			// Formulário de edição de Ceia
+├── ceias.php				// Página principal de Ceia
+├── complemento_ceia-create.php	// Formulário de criação de Complemento de Ceia
+├── complemento_ceia-edit.php		// Formulário de edição de Complemento de Ceia
+├── complemento-create.php		// Formulário de criação de Complemento de Café
+├── complemento-edit.php		// Formulário de edição de Complemento de Café
+├── complementos.php			// Página principal de Complemento de Café
+├── complementos_ceia.php		// Página principal de Complemento de Ceia
+├── config.php				// Formulário de criação de Agentes Fiscais, Nutricionistas e Gestores de Municiamento 
+├── connect.php			// Arquivo de configuração do BD utilizando mysqli
+├── connect_pdo.php			// Arquivo de configuração do BD utilizando PDO
+├── dashboard.php			// Painel Administrativo do Sistema
+├── entrada-create.php			// Formulário de criação de Entrada
+├── entrada-edit.php			// Formulário de edição de Entrada
+├── entradas.php			// Página principal das Entradas
+├── exportar_cardapio_semanal.php
+├── exportar_cardapios_pdf.php
+├── exportar_relatorio_avaliacoes.php
+├── exportar_relatorio_mensal.php
+├── guarnicao-create.php
+├── guarnicao-edit.php
+├── guarnicoes.php
+├── guarnicoes_dashboard.php
+├── index.php
+├── login.php
+├── logout.php
+├── mensagem.php
+├── navbar.php
+├── pratoPrincipal-create.php
+├── pratoPrincipal-edit.php
+├── pratosPrincipais.php
+├── questao-create.php
+├── questao-edit.php
+├── questoes.php
+├── README.md
+├── settings.php
+├── sobremesa-create.php
+├── sobremesa-edit.php
+├── sobremesas.php
+├── usuario-create.php
+├── usuario-edit.php
+├── usuarios.php
+├── usuario-view.php
 
 🐛 Solução de Problemas
 Erro de conexão com o banco: Verifique as credenciais em config/connect.php connect_pdo.
