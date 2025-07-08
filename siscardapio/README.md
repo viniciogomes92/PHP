@@ -124,10 +124,10 @@ siscardapio/ <br>
 ├── entrada-create.php			- Formulário de criação de Entrada <br>
 ├── entrada-edit.php			- Formulário de edição de Entrada <br>
 ├── entradas.php			- Página principal das Entradas <br>
-├── exportar_cardapio_semanal.php 	- Página para Exportar o Cardápio Semanal
-├── exportar_cardapios_pdf.php		- Controller que executa a exportação do Cardápio Semanal
-├── exportar_relatorio_avaliacoes.php	- Controller que executa a exportação do Relatório Mensal de Avaliações
-├── exportar_relatorio_mensal.php	- Página para Exportar o Cardápio Semanal
+├── exportar_cardapio_semanal.php 	- Página para Exportar o Cardápio Semanal  
+├── exportar_cardapios_pdf.php		- Controller que executa a exportação do Cardápio Semanal  
+├── exportar_relatorio_avaliacoes.php	- Controller que executa a exportação do Relatório Mensal de Avaliações  
+├── exportar_relatorio_mensal.php	- Página para Exportar o Cardápio Semanal  
 ├── guarnicao-create.php		- Formulário de criação de Guarnição <br>
 ├── guarnicao-edit.php			- Formulário de edição de Guarnição <br>
 ├── guarnicoes.php			- Página principal das Entradas <br>
@@ -144,7 +144,7 @@ siscardapio/ <br>
 ├── questao-edit.php			- Formulário de edição de Questão <br>
 ├── questoes.php			- Página principal das Questões <br>
 ├── README.md				
-├── settings.php			- Página para configurar definições do sistema
+├── settings.php			- Página para configurar definições do sistema  
 ├── sobremesa-create.php		- Formulário de criação de Sobremesa <br>
 ├── sobremesa-edit.php			- Formulário de edição de Sobremesa <br>
 ├── sobremesas.php			- Página principal das Sobremesas <br>
@@ -153,13 +153,13 @@ siscardapio/ <br>
 ├── usuarios.php			- Página principal de Usuários <br>
 ├── usuario-view.php			- Formulário para visualizar dados do Usuário <br>
 
-🐛 Solução de Problemas
-	> Erro de conexão com o banco: Verifique as credenciais em config/connect.php connect_pdo.
+🐛 Solução de Problemas  
+	Erro de conexão com o banco: Verifique as credenciais em config/connect.php connect_pdo.
 
 	Página em branco: Habilite erros no PHP (display_errors = On no php.ini).
 
 🤝 Como Contribuir <br>
-	Faça um fork do projeto
+	Faça um fork do projeto  
 
 	Crie uma branch (git checkout -b feature/nova-feature)
 
