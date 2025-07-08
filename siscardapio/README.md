@@ -66,13 +66,13 @@ Acessar no navegador:
 🗂️ Estrutura de Arquivos <br>
 <br>
 siscardapio/ <br>
-├── assets/            &nbsp// Imagens e Ícones <br>
-├── css/               &nbsp// Folhas de estilo <br>
-├── dompdf/           &nbsp// Biblioteca para gerar PDFs <br>
-├── fpdf/              &nbsp// Geração de relatórios em PDF <br>
-├── js/                &nbsp// JavaScript <br>
-├── password_compat/   &nbsp// Compatibilidade de senhas <br>
-├── sweetalert2/       &nbsp// Alertas estilizados <br>
+├── assets/           - Imagens e Ícones <br>
+├── css/              - Folhas de estilo <br>
+├── dompdf/           - Biblioteca para gerar PDFs <br>
+├── fpdf/             - Geração de relatórios em PDF <br>
+├── js/               - JavaScript <br>
+├── password_compat/  - Compatibilidade de senhas <br>
+├── sweetalert2/      - Alertas estilizados <br>
 ├── acoes_acompanhamentos.php		// Controllers para operações CRUD de acompanhamentos <br>
 ├── acoes_agentes_fiscais.php		// Controllers para operações CRUD de agentes fiscais <br>
 ├── acoes_avaliacoes.php		// Controllers para operações CRUD de avaliações <br>
@@ -159,7 +159,7 @@ Erro de conexão com o banco: Verifique as credenciais em config/connect.php con
 Página em branco: Habilite erros no PHP (display_errors = On no php.ini).
 
 🤝 Como Contribuir <br>
-	&nbspFaça um fork do projeto
+	Faça um fork do projeto
 
 	Crie uma branch (git checkout -b feature/nova-feature)
 
