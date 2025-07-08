@@ -132,11 +132,11 @@ siscardapio/ <br>
 ├── guarnicao-edit.php			- Formulário de edição de Guarnição <br>
 ├── guarnicoes.php			- Página principal das Entradas <br>
 ├── guarnicoes_dashboard.php		- Painel Administrativo das Guarnições do Cardápio <br>
-├── index.php				- Tela de Login
-├── login.php				- Controller para validação do Login
-├── logout.php				- Controller para efetuar logout
-├── mensagem.php			- Componente para exibir mensagens do sistema
-├── navbar.php				- Componente para exibir o menu do sistema
+├── index.php				- Tela de Login  
+├── login.php				- Controller para validação do Login  
+├── logout.php				- Controller para efetuar logout  
+├── mensagem.php			- Componente para exibir mensagens do sistema  
+├── navbar.php				- Componente para exibir o menu do sistema  
 ├── pratoPrincipal-create.php		
 ├── pratoPrincipal-edit.php
 ├── pratosPrincipais.php
