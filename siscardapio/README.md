@@ -66,11 +66,11 @@ Acessar no navegador:
 🗂️ Estrutura de Arquivos <br>
 <br>
 siscardapio/ <br>
-├── assets/           			-- Imagens e Ícones <br>
-├── css/              			-- Folhas de estilo <br>
-├── dompdf/           			-- Biblioteca para gerar PDFs <br>
-├── fpdf/             			-- Geração de relatórios em PDF <br>
-├── js/              			-- JavaScript <br>
+├── assets/           			- Imagens e Ícones <br>
+├── css/              			- Folhas de estilo <br>
+├── dompdf/           			- Biblioteca para gerar PDFs <br>
+├── fpdf/             			- Geração de relatórios em PDF <br>
+├── js/              			- JavaScript <br>
 ├── password_compat/ 			- Compatibilidade de senhas <br>
 ├── sweetalert2/      			- Alertas estilizados <br>
 ├── acoes_acompanhamentos.php		- Controllers para operações CRUD de acompanhamentos <br>
@@ -124,20 +124,20 @@ siscardapio/ <br>
 ├── entrada-create.php			- Formulário de criação de Entrada <br>
 ├── entrada-edit.php			- Formulário de edição de Entrada <br>
 ├── entradas.php			- Página principal das Entradas <br>
-├── exportar_cardapio_semanal.php 
-├── exportar_cardapios_pdf.php
-├── exportar_relatorio_avaliacoes.php
-├── exportar_relatorio_mensal.php
-├── guarnicao-create.php
-├── guarnicao-edit.php
-├── guarnicoes.php
-├── guarnicoes_dashboard.php
-├── index.php
-├── login.php
-├── logout.php
-├── mensagem.php
-├── navbar.php
-├── pratoPrincipal-create.php
+├── exportar_cardapio_semanal.php 	- Página para Exportar o Cardápio Semanal
+├── exportar_cardapios_pdf.php		- Controller que executa a exportação do Cardápio Semanal
+├── exportar_relatorio_avaliacoes.php	- Controller que executa a exportação do Relatório Mensal de Avaliações
+├── exportar_relatorio_mensal.php	- Página para Exportar o Cardápio Semanal
+├── guarnicao-create.php		- Formulário de criação de Guarnição <br>
+├── guarnicao-edit.php			- Formulário de edição de Guarnição <br>
+├── guarnicoes.php			- Página principal das Entradas <br>
+├── guarnicoes_dashboard.php		- Painel Administrativo das Guarnições do Cardápio <br>
+├── index.php				- Tela de Login
+├── login.php				- Controller para validação do Login
+├── logout.php				- Controller para efetuar logout
+├── mensagem.php			- Componente para exibir mensagens do sistema
+├── navbar.php				- Componente para exibir o menu do sistema
+├── pratoPrincipal-create.php		
 ├── pratoPrincipal-edit.php
 ├── pratosPrincipais.php
 ├── questao-create.php
