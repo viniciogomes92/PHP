@@ -35,7 +35,7 @@ CREATE TABLE `usuarios` (
   `data_criacao` date NOT NULL,
   PRIMARY KEY (`id`,`nip`),
   UNIQUE KEY `nip` (`nip`)
-) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -44,7 +44,7 @@ CREATE TABLE `usuarios` (
 
 LOCK TABLES `usuarios` WRITE;
 /*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
-INSERT INTO `usuarios` VALUES (1,13131770,'3SG','Silva Gomes','Vinício Gomes','viniciogomes@gmail.com','1992-04-29','$2y$10$TG/reu/t0EE2XSwBHJRO3.E7S4YZ2P9PlbNS9v4pIWwrrubjZ.1xa','A','2025-04-22'),(8,33333333,'GM','oi','oi','oi@oi.com','2000-01-11','$2y$10$iaNrcDDqrsX7pgqm18dNOuh9Yu3NpsroBoYcCX5pXYagm5QcmmNyK','R','2025-04-24'),(16,21001928,'1T','LEONDY','THADEU LEONDY DE SANT\'ANNA','leondy@marinha.mil.br','1986-12-11','$2y$10$BmqBKRL7j9YZV89OZwOYneJ/Af0zHP4O3YE2J3ui83hO8vLLWOv8.','A','2025-06-13');
+INSERT INTO `usuarios` VALUES (17,12345678,'AE','Teste','Teste','teste@teste.com','2000-01-01','$2y$10$fSe4dKjvrisEWP84YT7o3OUzM3H5UQKQ.oFVRM90vg8SbfdUcZCs2','A','2025-07-08');
 /*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -57,4 +57,5 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-06-30 10:21:10
+-- Dump completed on 2025-07-08 14:23:12
+
