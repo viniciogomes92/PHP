@@ -66,13 +66,13 @@ Acessar no navegador:
 🗂️ Estrutura de Arquivos <br>
 <br>
 siscardapio/ <br>
-├── assets/           - Imagens e Ícones <br>
-├── css/              - Folhas de estilo <br>
-├── dompdf/           - Biblioteca para gerar PDFs <br>
-├── fpdf/             - Geração de relatórios em PDF <br>
-├── js/               - JavaScript <br>
-├── password_compat/  - Compatibilidade de senhas <br>
-├── sweetalert2/      - Alertas estilizados <br>
+├── assets/           			-- Imagens e Ícones <br>
+├── css/              			-- Folhas de estilo <br>
+├── dompdf/           			-- Biblioteca para gerar PDFs <br>
+├── fpdf/             			-- Geração de relatórios em PDF <br>
+├── js/              			-- JavaScript <br>
+├── password_compat/ 			- Compatibilidade de senhas <br>
+├── sweetalert2/      			- Alertas estilizados <br>
 ├── acoes_acompanhamentos.php		- Controllers para operações CRUD de acompanhamentos <br>
 ├── acoes_agentes_fiscais.php		- Controllers para operações CRUD de agentes fiscais <br>
 ├── acoes_avaliacoes.php		- Controllers para operações CRUD de avaliações <br>
