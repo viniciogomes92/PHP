@@ -145,7 +145,7 @@ siscardapio/ <br>
 ├── questao-create.php			- Formulário de criação de Questão <br>
 ├── questao-edit.php			- Formulário de edição de Questão <br>
 ├── questoes.php			- Página principal das Questões <br>
-├── README.md				
+├── README.md  			
 ├── settings.php			- Página para configurar definições do sistema  
 ├── sobremesa-create.php		- Formulário de criação de Sobremesa <br>
 ├── sobremesa-edit.php			- Formulário de edição de Sobremesa <br>
