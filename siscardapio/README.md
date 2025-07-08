@@ -137,26 +137,26 @@ siscardapio/ <br>
 ├── logout.php				- Controller para efetuar logout  
 ├── mensagem.php			- Componente para exibir mensagens do sistema  
 ├── navbar.php				- Componente para exibir o menu do sistema  
-├── pratoPrincipal-create.php		
-├── pratoPrincipal-edit.php
-├── pratosPrincipais.php
-├── questao-create.php
-├── questao-edit.php
-├── questoes.php
-├── README.md
-├── settings.php
-├── sobremesa-create.php
-├── sobremesa-edit.php
-├── sobremesas.php
-├── usuario-create.php
-├── usuario-edit.php
-├── usuarios.php
-├── usuario-view.php
+├── pratoPrincipal-create.php		- Formulário de criação de Prato Principal <br>
+├── pratoPrincipal-edit.php		- Formulário de edição de Prato Principal <br>
+├── pratosPrincipais.php		- Página principal dos Pratos Principais <br>
+├── questao-create.php			- Formulário de criação de Questão <br>
+├── questao-edit.php			- Formulário de edição de Questão <br>
+├── questoes.php			- Página principal das Questões <br>
+├── README.md				
+├── settings.php			- Página para configurar definições do sistema
+├── sobremesa-create.php		- Formulário de criação de Sobremesa <br>
+├── sobremesa-edit.php			- Formulário de edição de Sobremesa <br>
+├── sobremesas.php			- Página principal das Sobremesas <br>
+├── usuario-create.php			- Formulário de criação de Usuário <br>
+├── usuario-edit.php			- Formulário de edição de Usuário <br>
+├── usuarios.php			- Página principal de Usuários <br>
+├── usuario-view.php			- Formulário para visualizar dados do Usuário <br>
 
 🐛 Solução de Problemas
-Erro de conexão com o banco: Verifique as credenciais em config/connect.php connect_pdo.
+	> Erro de conexão com o banco: Verifique as credenciais em config/connect.php connect_pdo.
 
-Página em branco: Habilite erros no PHP (display_errors = On no php.ini).
+	Página em branco: Habilite erros no PHP (display_errors = On no php.ini).
 
 🤝 Como Contribuir <br>
 	Faça um fork do projeto
