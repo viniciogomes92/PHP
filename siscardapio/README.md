@@ -57,7 +57,9 @@ Importar banco de dados:
 
 Acessar o sistema:
 
-	http://localhost/siscardapio/index.php
+	http://localhost/siscardapio/index.php  
+ 	Login: 12345678
+  	Senha: 123456789
 
 Acessar no navegador:
 
