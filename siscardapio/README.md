@@ -37,7 +37,7 @@
 
 **Clonar o repositório**:
    
-   git clone https://github.com/viniciogomes92/PHP.git
+   git clone https://github.com/viniciogomes92/PHP.git  
    cd PHP
 
 
